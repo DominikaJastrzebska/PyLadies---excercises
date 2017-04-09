@@ -1,6 +1,5 @@
 ﻿#Napisz Skrypt, który policzy BMI i w zależności od płci zgodnie z tabelką
 #wypisze diagnozę:
-#
 #   women                   men
 #   BMI     diagnosis       BMI         diagnosis
 #   <=16.5  anorexia        <=18.5      anorexia
