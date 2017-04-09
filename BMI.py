@@ -1,4 +1,4 @@
-#Napisz skrypt, który policzy BMI i w zależności od płci zgodnie z tabelką
+﻿#Napisz Skrypt, który policzy BMI i w zależności od płci zgodnie z tabelką
 #wypisze diagnozę:
 #   women                   men
 #   BMI     diagnosis       BMI         diagnosis
