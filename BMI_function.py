@@ -1,13 +1,27 @@
 def get_data():
-    weight = input('Enter weight: ')
-    height = input('Enter height: ')
-    data = {'weight':weight, 'height':height}
-    return data
+    weight = float(input('Enter weight: '))
+    height = float(input('Enter height: '))
+    user_data = {'weight':weight, 'height':height}
+    return user_data
 
-def BMI(height, weight):
+def count_BMI(weight, height):
     BMI = weight/height**2
-    print('BMI: '%f)%(bmi)
+    print('BMI: %f' %(BMI))
+    return BMI
+
+def classific(BMI):
+    if 0 < BMI <= 18:
+        classification == 'underweight'
+    elif 18 < BMI <= 25:
+        classification == 'normal weight'
+    else:
+        classification == 'overweight'
+    print(classification)
+
 
 data = get_data()
 
-BMI(data['weight'],data['height'])
+count_BMI(data['weight'], data['height'])
+
+classific(BMI)
+
